@@ -6,7 +6,7 @@ from moviepy.editor import *
 
 
 filetype = 'mp4'
-directory = './video4/'
+directory = './video7/'
 
 links = open('links.txt')
 urllist = []
@@ -68,7 +68,7 @@ for clip in range(videocount-1):
 
 finalvideo = concatenate_videoclips(cliplist)
 finalvideo.fps=30
-finalvideo.write_videofile(directory+"video4."+filetype)
+finalvideo.write_videofile(directory+"finalvideo."+filetype)
 
 # final = VideoFileClip("video2/clip1.mp4").margin(20)
 # final.write_videofile("video2/final.mp4")

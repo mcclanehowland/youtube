@@ -5,12 +5,10 @@ from pytube import YouTube
 
 filetype = 'mp4'
 # directory = './video1/'
-directory = './video3/'
+directory = './video9/'
 
 
-# urllist = ["https://www.youtube.com/watch?v=bwTTd0kQZKE","https://www.youtube.com/watch?v=p3HxIpiIh6w"]
-# urllist = ["https://www.youtube.com/watch?v=AWLH6m5kyQY&t=3s"]
-urllist = ["https://www.youtube.com/watch?v=f9b7G2khidY"]
+urllist = ["https://www.youtube.com/watch?v=EC-5PyzH7ew"]
 videolist = []
 for url in urllist:
     videolist.append(YouTube(url))
